@@ -40,7 +40,7 @@ async def start(event):
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
               event.chat_id,
-                    "https://github.com/AtharvOP01/SpamBot-2.0",
+                    "https://telegra.ph/file/8cb884efc08b15e219d20.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
