@@ -22,7 +22,7 @@ def load_plugins(plugin_name):
     load.logger = logging.getLogger(plugin_name)
     spec.loader.exec_module(load)
     sys.modules["JARVIS.modules." + plugin_name] = load
-    print("FRIDAY has Imported " + plugin_name)
+    print("PREMIUM has Imported " + plugin_name)
 
 
 files = glob.glob("JARVIS/modules/*.py")
@@ -32,7 +32,7 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("\n🏴‍☠️𝕽𝖊𝖆𝖕𝖊𝖗🏴‍☠️ Deployed Successfully ⚡\nMy Master ---> @ll_You_Are_Next_ll")
+print("\n😈 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐁𝐎𝐓𝐒😈 Deployed Successfully ⚡\nMy Master ---> @Premium5119")
 
 
 async def main():
