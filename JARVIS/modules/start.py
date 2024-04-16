@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• OWNER •", "https://t.me/Reaperx5"),
-        Button.url("• SUPPORT •", "https://t.me/REAPER_SUPPORT")
+        Button.url("• OWNER •", "https://t.me/Premium5119"),
+        Button.url("• SUPPORT •", "https://t.me/premiumxop")
     ],
     [
-        Button.url("• REPO •", "https://github.com/CenzoGod/Reaper-2.0")
+        Button.url("• REPO •", "https://github.com/AtharvOP01/SpamBot-2.0")
     ]
 ]
 
@@ -40,7 +40,7 @@ async def start(event):
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
               event.chat_id,
-                    "https://github.com/CenzoGod/Reaper-2.0",
+                    "https://github.com/AtharvOP01/SpamBot-2.0",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
