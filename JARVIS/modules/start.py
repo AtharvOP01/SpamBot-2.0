@@ -34,8 +34,8 @@ async def start(event):
         bot_name = ANNIE.first_name
         bot_id = ANNIE.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [PREMIUM](https://t.me/Premium5119)**\n\n"
-        TEXT += f"» **𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ×͜× :** `M 1.8.31`\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [🇵ʀᴇᴍɪᴜᴍ](https://t.me/Premium5119)**\n\n"
+        TEXT += f"» **🇵ʀᴇᴍɪᴜᴍ :** `M 1.8.31`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
