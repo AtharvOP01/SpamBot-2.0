@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ 🏴‍☠️𝕽𝖊𝖆𝖕𝖊𝖗🏴‍☠️ ʙᴏᴛs ʜᴇʟᴘ ᴍᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Reaperx5**"
+HELP_STRING = f"★ 🇵ʀᴇᴍɪᴜᴍ ʙᴏᴛs ʜᴇʟᴘ ᴍᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Premium5119**"
 
 HELP_BUTTON = [
     [
@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("• ᴇxᴛʀᴀ •", data="extra")
     ],
     [
-      Button.url("• OWNER •", "https://t.me/Reaperx5"),
-      Button.url("• SUPPORT •", "https://t.me/REAPER_SUPPORT")
+      Button.url("• 𝐎𝐖𝐍𝐄𝐑💫 •", "https://t.me/Premium5119"),
+      Button.url("• 𝐒𝐔𝐏𝐏𝐎𝐑𝐓💖 •", "https://t.me/premiumxop")
     ]
   ]
 
@@ -34,7 +34,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/60abdd0dac472c43a2e0b.jpg",
+              "https://telegra.ph/file/ac33448dfb4ea344f6a52.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -60,7 +60,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @Reaperx5**
+**© @Premium5119**
 """
 
                  
@@ -136,13 +136,13 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• OWNER •", "https://t.me/Reaperx5"),
-                Button.url("• SUPPORT •", "https://t.me/REAPER_SUPPORT")
+                Button.url("• 𝐎𝐖𝐍𝐄𝐑💫 •", "https://t.me/Premium5119"),
+                Button.url("• 𝐒𝐔𝐏𝐏𝐎𝐑𝐓💖 •", "https://t.me/premiumxop")
               ]
             ]
           )
     else:
-        await event.answer("ᴘᴀʜʟᴇ 𝐑𝖊𝖆𝖕𝖊𝖗ㅤᯤ⁹⁹⁹⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @Reaperx5", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ 𝙿𝚁𝙴𝙼𝙸𝚄𝙼ㅤᯤ⁹⁹⁹⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @Premium5119", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("ᴘᴀʜʟᴇ 𝐑𝖊𝖆𝖕𝖊𝖗ㅤᯤ⁹⁹⁹⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @Reaperx5", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ 𝙿𝚁𝙴𝙼𝙸𝚄𝙼ㅤᯤ⁹⁹⁹⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @Premium5119", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("ᴘᴀʜʟᴇ 𝐑𝖊𝖆𝖕𝖊𝖗ㅤᯤ⁹⁹⁹⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @Reaperx5", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ 𝙿𝚁𝚁𝙼𝙸𝚄𝙼ㅤᯤ⁹⁹⁹⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @Premium5119", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,5 +199,5 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("ᴘᴀʜʟᴇ 𝐑𝖊𝖆𝖕𝖊𝖗ㅤᯤ⁹⁹⁹⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @Reaperx5", cache_time=0, alert=True)
+        await event.answer("ᴘᴀʜʟᴇ 𝙿𝚁𝚁𝙼𝙸𝚄𝙼ㅤᯤ⁹⁹⁹⁺ ᴘᴀᴘᴀ sᴇ sᴜᴅᴏ ʟᴇʟᴏ 💀 @Premium5119", cache_time=0, alert=True)
 
