@@ -5,11 +5,11 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_BUTTON = [
     [
-        Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
+        Button.inline("• ✨ᴄᴏᴍᴍᴀɴᴅs✨ •", data="help_back")
     ],
     [
-        Button.url("• OWNER •", "https://t.me/Premium5119"),
-        Button.url("• SUPPORT •", "https://t.me/premiumxop")
+        Button.url("• 💝OWNER💝 •", "https://t.me/Premium5119"),
+        Button.url("• ✨SUPPORT✨ •", "https://t.me/premiumxop")
     ],
     [
         Button.url("• REPO •", "https://github.com/AtharvOP01/SpamBot-2.0")
@@ -34,8 +34,8 @@ async def start(event):
         bot_name = ANNIE.first_name
         bot_id = ANNIE.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [REAPER](https://t.me/Reaperx5)**\n\n"
-        TEXT += f"» **🏴‍☠️𝕽𝖊𝖆𝖕𝖊𝖗🏴‍☠️ :** `M 1.8.31`\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [PREMIUM](https://t.me/Premium5119)**\n\n"
+        TEXT += f"» **𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ×͜× :** `M 1.8.31`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
