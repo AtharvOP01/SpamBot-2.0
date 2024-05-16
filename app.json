@@ -1,6 +1,6 @@
 {
-    "name": "premium.",
-    "logo": "https://telegra.ph/file/ac33448dfb4ea344f6a52.jpg",
+    "name": "जय बजरंगबली {🚩} [🇮🇳].",
+    "logo": "https://telegra.ph/file/1752fa42a18790aaf3069.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/AtharvOP01/SpamBot-2.0",
+    "repository": "https://git.heroku.com/sanatanifighter.git",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
