@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• ✨ᴄᴏᴍᴍᴀɴᴅs✨ •", data="help_back")
     ],
     [
-        Button.url("• 💝OWNER💝 •", "https://t.me/Premium5119"),
-        Button.url("• ✨SUPPORT✨ •", "https://t.me/premiumxop")
+        Button.url("• 💝OWNER💝 •", "https://t.me/l_Balaji_l"),
+        Button.url("• ✨SUPPORT✨ •", "https://t.me/Sanatani_Dharam_op")
     ],
     [
-        Button.url("• REPO •", "https://github.com/AtharvOP01/SpamBot-2.0")
+        Button.url("• REPO •", "https://git.heroku.com/sanatanifighter.git")
     ]
 ]
 
@@ -34,7 +34,7 @@ async def start(event):
         bot_name = ANNIE.first_name
         bot_id = ANNIE.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [🇵ʀᴇᴍɪᴜᴍ](https://t.me/Premium5119)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [🇵ʀᴇᴍɪᴜᴍ](https://t.me/l_Balaji_l)**\n\n"
         TEXT += f"» **🇵ʀᴇᴍɪᴜᴍ :** `M 1.8.31`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
